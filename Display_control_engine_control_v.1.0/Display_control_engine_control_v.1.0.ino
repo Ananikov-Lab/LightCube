@@ -2,10 +2,10 @@
 //Версия с контролем двигателей
 
 //#include <math.h>
-#include <GyverButton.h> // button control
+#include <GyverButton.h> // button control library https://github.com/AlexGyver/GyverLibs/tree/master/GyverButton
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> // dislpay control
-#include <ServoSmooth.h> // servo control
+#include <ServoSmooth.h> // servo control library https://github.com/AlexGyver/GyverLibs/tree/master/ServoSmooth
 //#include <vector>
 LiquidCrystal_I2C lcd(0x27, 16, 2);     //  setting 16x2 display
 
