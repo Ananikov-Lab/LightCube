@@ -1,5 +1,4 @@
 
-//Версия с контролем двигателей
 
 //#include <math.h>
 //#include <GyverButton.h> // button control
@@ -57,7 +56,7 @@ int parameters[numofScreens][4] = {
 
 long times[4] = {0, 0, 0, 0}; // Reaction time in seconds
 int increment = 5; // for write.Microseconds
-float volCoefs[4] = {4.43, 4.27, 4.19, 4.34}; // volCoef = d(positions)/d(volume)
+float volCoefs[4] = {4.43, 4.27, 4.19, 4.34}; // volCoef = d(positions)/d(volume) This coefficients should be found experimentally for needed syringe
 float reaction_times[4]={0,0,0,0};
 
 
