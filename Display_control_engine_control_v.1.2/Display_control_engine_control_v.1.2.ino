@@ -1,4 +1,4 @@
-
+// version with encoder
 
 //#include <math.h>
 //#include <GyverButton.h> // button control
